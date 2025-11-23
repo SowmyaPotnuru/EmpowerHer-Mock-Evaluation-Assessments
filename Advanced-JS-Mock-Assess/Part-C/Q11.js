@@ -1,5 +1,5 @@
 function createWallet(){
-  let money = 1000;
+  let money = 0;
   function addMoney(x){
     money += x;
     console.log(`The amount after adding ${x} is ${money}`);
